@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My paint</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<h1>My paint</h1>
+		<div class="element">
+			<canvas id="canvas" width="1200" height="700" style="border:solid 1px; background-color: white;"></canvas>
+		</div>
+		<div class="element">
+			<select id="taille" class="button">
+				<option value="5">Petit</option>
+				<option value="10">Moyen</option>
+				<option value="20">Grand</option>
+			</select>
+			<select id="remplir" class="button">
+				<option value="fill">Remplir</option>
+				<option value="stroke">Contour</option>
+			</select>
+			<input type="color" value="#fad345" name="textcolor" id="color" class="button">
+			<button id="Line" class="cmd button">Ligne</button>
+			<button id="Draw" class="cmd button">Stylo</button>
+			<button id="Square" class="cmd button">Rectangle</button>
+			<button id="Circle" class="cmd button">Cercle</button>
+			<button id="Rubber" class="button">Gomme</button>
+			<input id="File" type="file" name="img" class="cmd button">
+			<button id="Download" class="button">Download</button>
+		</div>
+	</div>
+	<script
+			  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+			  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

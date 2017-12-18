@@ -1,0 +1,22 @@
+#container{
+	text-align: center;
+	width: 100%;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+	background-image: url(https://i.stack.imgur.com/pMAiU.jpg);
+	background-color:white;
+}
+.button{
+	border-radius: 4px;
+	height: 35px;
+	width: 200px;
+	border: solid black 1px;
+}
+#color{
+	margin-top: 15px;
+}
+canvas{
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
